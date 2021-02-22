@@ -1,0 +1,93 @@
+body {color: #2C143D;font-family: Arial, Helvetica, sans-serif;font-size: 13px;margin: 0px;padding: 0px;background-color: #ffdaaf;text-align: center;}
+div#topBloc {width: 100%;min-width: 771px;height: 100px;background: url(../../images/design/blue/top-menu-bg.png);background-repeat: repeat-x;position: relative;}
+div#middleBloc {width: 95%;min-width: 771px;margin-top: 10px;margin-left: auto;margin-right: auto;text-align: left;}
+div#leftBloc {width: 16%;min-width: 120px;float: left;}
+div#bodyBloc {width: 68%;min-width: 521px;float: left;}
+div#rightBloc {width: 15%;min-width: 120px;float: left;}
+a#logo {background: url(../../images/design/blue/logo.gif);width: 260px;height: 35px;display: block;position: absolute;left: 11px;top: 23px;}
+a#logo span {display: none;}
+form#cse-search-box {top: 5px;right: 5px;position: absolute;}
+form#cse-search-box input.txt {width: 120px;height: 16px;border: 1px solid #313FD4!important;padding: 2px;font-size: 13px;background-color: #FFFFFF;}
+form#cse-search-box input.sub {width: 40px;height: 22px;border: 1px solid #313FD4; padding: 2px;position: relative;font-weight: bold;font-size: 13px;background-color: #E9F0F8;}
+div#topMenu {position: absolute;bottom: 4px;left: 0px;margin: 0px;padding: 0px;width: 100%;}
+div#topMenu a {font-family: arial, sans-serif;font-size: 11px;text-decoration: none;font-weight: bold;color: #232C98;}
+div#topMenu a:hover {text-decoration: underline overline;color: #FFFFFF;}
+div#topRightMenu {position: absolute;width: 100px;top: -2px;right: 5px;text-align: right}div#topRightMenu a {display: block;background-repeat: no-repeat;float: right;margin-left: 8px;}
+div#topRightMenu a span {display: none;}
+a#mail {width: 14px;height: 14px;background-image: url(../../images/divers/puces/mail.gif);position: relative;top: 1px;}
+a#print {width: 16px;height: 16px;background-image: url(../../images/divers/puces/print.gif);}
+a#a {width: 16px;height: 16px;background-image: url(../../images/divers/puces/admin.gif);}
+a#e {width: 16px;height: 16px;background-image: url(../../images/divers/puces/edit.gif);}
+div.menuBlocLeft {width: 120px;margin-left: auto;margin-right: 0px;}
+div.menuBlocRight {width: 120px;margin-left: 0px;margin-right: auto;}
+div.menuHeader {background-image: url(../../images/design/blue/bloc-menu.gif);background-repeat: no-repeat;background-position: 0px 0px;width: 100%;height: 22px;display: block;text-align: center;margin-bottom: 6px;font-family: Verdana, sans-serif;font-size: 12px;color: #FFFFFF;font-weight: bold;position: relative;top: 3px;line-height: 1.8;}
+ul.menuBody {text-align: left;width: 100%;list-style-type: none;padding: 0px ;margin: 0px;}
+div.menuFooter {width: 100%;height: 25px;}
+ul.menuBody a {font-family: arial, sans-serif;font-size: 11px;font-weight: bold;color: #313FD4;padding-left: 4px;border-left: 3px solid #E9F0F8;}
+ul.menuBody a:hover {text-decoration: none;color: #B0B3D4;border-left: 3px solid #313FD4;}
+div.menuBody input.menu {width: 80px;font-family: arial, sans-serif;font-weight: bold;font-size: 11px;background-color: #E9F0F8;color: #313FD4;border: 1px #313FD4 solid;padding-left: 3px;margin-bottom: 2px;}
+#xiti {text-align:center;}
+div#body {padding-top: 10px;padding-left: 10px;padding-right: 10px;}
+div#body h1 {font-family: Impact, Marydale, sans-serif; font-style: italic;font-size: 25px;color: #CC6083;font-weight: bold;text-align: center;margin-top: 0px;}
+div#body h2 {color: #B70222;border-bottom: 1px solid #B70222;margin: 0px;margin-top: 30px;margin-bottom: 5px;font-size: 12px;font-weight: bold;}
+div#body h3 {color: #B70222;border-bottom: 1px solid #B70222;margin-top: 30px;margin-bottom: 5px;font-size: 12px;font-weight: normal;}
+#body ul {margin: 0px;padding: 0px;}
+#body ul.instr li {margin-bottom: 30px;}
+#body ul li {list-style-type: none;background-image: url(../../images/design/blue/fleche.gif);padding-left: 45px;background-repeat: no-repeat;background-position: 15px 5px;}
+#body ul.raquo li {list-style-type: none;background-image: url(../../images/design/blue/raquo.gif);padding-left: 28px;background-repeat: no-repeat;background-position: 15px 5px;margin-bottom: 0px;}
+.important {color: #313FD4;font-size: 12px;font-weight: bolder;text-decoration: none;}
+.brackets {font-size: 12px;font-style: italic;text-decoration: none;font-weight: normal;color: #0000A6;}
+.list {font-family: Arial, Verdana, sans-serif;color: #000000;font-size: 11px;text-decoration: none;}
+.detail {font-family: arial, sans-serif;font-size: 11px;color: #313FD4;text-decoration: none;font-weight: bold;}
+.red {color: #FF0000;text-decoration: none;}
+.blue {color: #6633ff;text-decoration: none;}
+span#nbConnect {color: #B0B3D4;font-family: Verdana, sans-serif;font-size: 11px;font-weight: bold;}
+a {text-decoration: none;color: #ffffff;text-decoration: none;}
+a:hover, table.topic a:hover {text-decoration: underline overline;color: #707287;}
+a.lien, a.link, ul a {font-family: Verdana, sans-serif;font-size: 11px;font-weight: bold;}
+form {display: inline;}
+input.txt, select, textarea {border: 1px #313FD4 solid;width: 292px;background-color: #E9F0F8;color: #2C143D;font-family: arial, sans-serif;font-size: 13px;padding-left: 3px;padding-right: 3px;}
+select {width: 300px;padding: 0px;border-width: 0px;}
+textarea, p.textarea {min-height: 100px;}
+input.txt:focus, div.menuBody input.menu:focus, select:focus, textarea:focus {background-color: #DFDFDF;}
+input.submit {font-family: Arial, "Courier New", sans-serif;font-size: 12px;color: #E9F0F8;font-weight: bold;height: 20px;background: url(../../images/design/blue/submit-button.png);background-repeat: repeat-x;border: 1px solid #313FD4;padding-left: 3px;padding-right: 3px;}
+label {line-height: 1.5;text-align: left;}
+div.niceBox {width: 85%;min-width: 500px;margin: 0px;margin-left: auto;margin-right: auto;}
+div.niceBoxHeader {width: 100%;height: 20px;position: relative;padding-bottom: 2px;}
+div.niceBoxBody {margin-left: 20px;margin-right: 20px;margin-bottom: 25px;}
+div.niceBoxHeader span.title {background-color: #313FD4;height: 20px;margin-left: 20px;margin-right: 19px;display: block;line-height: 1.7;}
+div.niceBoxHeader span.left, div.niceBoxHeader span.right {width: 20px;height: 20px;display: block;position: absolute;top: 0px;}
+div.niceBoxHeader span.left {background: url(../../images/design/blue/nice-box-left.gif);left: 0px;}
+div.niceBoxHeader span.right {background: url(../../images/design/blue/nice-box-right.gif);right: 0px;}
+div.niceBoxHeader span, div.niceBoxHeader a {font-family: Verdana, sans-serif;font-size: 12px;color: #FFFFFF;font-weight: bold;}
+div.niceBoxHeader a:hover {text-decoration: none;color: #B9B3BD;}
+div.niceBoxBody a.lien {font-family: arial, sans-serif;font-size: 11px;font-weight: bold;color: #313FD4;padding-left: 3px;}
+div.niceBoxBody a.lien:hover {text-decoration: underline overline;color: #707287;}
+div.alertBox {width: 500px;margin-left: auto;margin-right: auto;}
+div.alertBoxTop {background: url(../../images/design/blue/bloc-500-haut.gif);}
+div.alertBoxBottom {background: url(../../images/design/blue/bloc-500-bas.gif);}
+div.alertBoxTop, div.alertBoxBottom {background-repeat: no-repeat;height: 5px;width: 500px;font-size: 0px;}
+div.alertBoxBody {border-left: 1px solid #313FD4;border-right: 1px solid #313FD4;padding-left: 4px;padding-right: 4px;}
+div.alertBoxBody img.icone {padding-right: 4px;padding-bottom: 4px;float: left;}
+pre.annu {width: 100%;border-top: 1px solid #313FD4;padding: 2px;margin-top: 2px;background-color: #FFFFFF;color: #FF0000;}
+div#annuForm {width: 450px;margin: auto;}
+div#annuForm label {float: left;width: 150px;}
+div#annuForm input.txt, div#annuForm select, div#annuForm textarea {float: left;}
+div#annuForm input.submit {float: left;width: 300px;}
+div#contact {width: 400px;margin: auto;}
+div#contact label {float: left;width: 100px;}
+div#contact input.txt, div#contact select, div#contact textarea {float: left;}
+div#contact input.submit {float: left;width: 300px;}
+a.dwl {color: #B70222;font-weight: bold;font-style: italic;border-bottom: 2px dotted #313FD4;}
+a.dwl:hover {border-bottom-style: solid;text-decoration: none;}
+pre.dwlFiche {width: 100%;}
+pre.dwlFiche div.color1, pre.dwlFiche div.color2 {padding-top: 4px;padding-bottom: 4px;}
+pre.dwlFiche div.color1 {background-color: #FFFFFF;color: #6633ff;}
+pre.dwlFiche div.color2 {background-color: #E9F0F8;color: #FF0000;}
+div.indent {margin-left: 50px;}
+hr.spacer {clear: both;visibility: hidden;height: 1px;margin: 0px;}
+p.formEntry {height: 20px;margin: 0px;margin-bottom: 4px;padding: 0px;}
+p.sep {margin-top: 15px;}
+hr, hr.tutoSep {height: 1px;background-color: #313FD4;color: #313FD4;border-width: 0px;}
+hr.tutoSep {background-color: #E9F0F8;color: #E9F0F8;}
+hr.minWidth {height: 1px;background-color: #E9F0F8;color: #E9F0F8;border-width: 0px;}
