@@ -1,0 +1,11 @@
+.form {
+    width: 100%;
+}
+
+.form_title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.7)
+}
