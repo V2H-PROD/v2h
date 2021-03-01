@@ -3,6 +3,11 @@ body {
     padding-top: 0px;
 }
 
+.contact {
+    position: relative;
+    display:  block;
+}
+
 .header_contact {
     width: 100%;
     height: 100%;
