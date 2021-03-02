@@ -142,28 +142,28 @@ section {
 }
 .social-icons a.facebook:hover
 {
-    margin-left: 30px;
+    margin-left: 10px;
     color: #fff;
     text-decoration: none;
    background-color:#3b5998;
 }
 .social-icons a.twitter:hover
 {
-    margin-left: 30px;
+    margin-left: 10px;
     color: #fff;
     text-decoration: none;
    background-color:#00aced;
 }
 .social-icons a.youtube:hover
 {
-    margin-left: 30px;
+    margin-left: 10px;
     color: #fff;
     text-decoration: none;
    background-color:#f10d0d;
 }
 .social-icons a.instagram:hover
 {
-    margin-left: 30px;
+    margin-left: 10px;
     color: #fff;
     text-decoration: none;
 }
