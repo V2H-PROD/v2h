@@ -46,6 +46,10 @@
     text-decoration: none;
 }
 
+.header_navbar-menu-link:hover {
+    color: #bbc2c2;
+}
+
 .header_slogan {
     text-align: center;
     margin-top: 60px;
@@ -120,8 +124,8 @@
         font-size: 30px;
     }
     .bulle li  {
-      width: 40px;
-      height: 40px;
+      width: 35px;
+      height: 35px;
     }
 }
 
