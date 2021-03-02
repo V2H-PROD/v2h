@@ -119,4 +119,71 @@
     .header_slogan-title {
         font-size: 30px;
     }
+    .bulle li  {
+      width: 40px;
+      height: 40px;
+    }
+}
+
+.medias {
+    z-index: 9999;
+    list-style-type: none;
+    position: fixed;
+    left: 2.3%;
+    top: 13%;
+    transform: translateX(-150%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle li  {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+
+.bulle .nav-youtube {
+    color: red;
+}
+
+.bulle .nav-instagram {
+    color: #4C5FD7;
+}
+
+.bulle .nav-facebook {
+    color: #0800ad;
+}
+
+.bulle .nav-twitter {
+    color: #00dbff;
+}
+
+.logo-medias {
+    width: 40px;
+    height: 40px;
+}
+
+.fondu-medias {
+    transform: translateX(150%);
+    transition: 1.5s;
+}
+
+@media only screen and (max-width: 900px ) {
+    .bulle li  {
+      width: 55px;
+      height: 55px;
+    }
+    .fondu-medias {
+        transform: translateX(170%);
+        transition: 1.5s;
+    }
 }
