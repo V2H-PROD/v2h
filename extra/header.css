@@ -12,7 +12,6 @@
     background: url(https://images.unsplash.com/photo-1499343245400-cddc78a01317?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8cGhvdG9ncmFwaGVyfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60) center no-repeat;
     background-size: cover;
     z-index: 1;
-    opacity: 0,8;
 }
 
 .header_mask {
@@ -58,7 +57,6 @@
 .header_slogan-title {
     color: #fff;
     font-size: 60px;
-    text-decoration: uppercase;
     font-family: 'Anton';
     font-style: italic;
 }
@@ -169,6 +167,22 @@
 
 .bulle .nav-twitter {
     color: #00dbff;
+}
+
+.bulle .bulle1:hover {
+    margin-left: 8px;
+}
+
+.bulle .bulle2:hover {
+    margin-left: 8px;
+}
+
+.bulle .bulle3:hover {
+    margin-left: 8px;
+}
+
+.bulle .bulle4:hover {
+    margin-left: 8px;
 }
 
 .logo-medias {
