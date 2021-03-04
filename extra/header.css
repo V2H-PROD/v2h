@@ -205,3 +205,7 @@
         transition: 1.5s;
     }
 }
+
+.animate__animated {
+  --animate-duration: 4s;
+}
