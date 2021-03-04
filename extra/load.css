@@ -86,11 +86,12 @@ h1.loader {
   color: transparent;
   letter-spacing: 0.01em;
   position:absolute;
-  top: 10%;right: 30%;
-  display: flex; 
+  top: 10%;right: 6%;
+  display: inline-block; 
   justify-content: center; 
   align-items: center;
   z-index: 9999;
+  vertical-align: top;
 }
 
 .loader span {
@@ -183,7 +184,7 @@ h1.loader {
         height: 40%;
     max-height: 100px;
     top: 51.5%;
-    right: 27%;
+    right: 23%;
   }
 
   h1.loader {
