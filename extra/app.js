@@ -13,7 +13,6 @@ window.addEventListener('load', () => {
     load.classList.add('fondu-out');
 });
 
-
 /* animation des bulles de media */
 
 const medias = document.querySelector('.bulle');
