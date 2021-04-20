@@ -43,8 +43,8 @@
 }
 
 .youtube_video1 {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 80px;
+    margin-right: 40px;
     margin-top: 25px;
     margin-bottom: 25px;
     display: flex;
@@ -53,8 +53,8 @@
     align-items: center;
 }
 .youtube_video2 {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 80px;
+    margin-right: 40px;
     margin-top: 25px;
     margin-bottom: 25px;
     display: flex;
