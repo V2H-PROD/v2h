@@ -7,11 +7,20 @@
 .header_texture {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0; left: 0;
     background: url(https://images.unsplash.com/photo-1499343245400-cddc78a01317?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8cGhvdG9ncmFwaGVyfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60) center no-repeat;
+    background-size: 100%;
+    z-index: 0;
+}
+
+.header_texture2 {
+    width: 100%;
+    height: 295%;
+    background: #fff;
     background-size: cover;
-    z-index: 1;
+    position: absolute;
+    top: 100%; left: 0;
 }
 
 .header_mask {
@@ -98,6 +107,15 @@
 
 @media only screen and (max-width: 600px ) {
 
+    .header_texture2 {
+        width: 100%;
+        height: 350%;
+        background: #fff;
+        background-size: cover;
+        position: absolute;
+        top: 100%; left: 0;
+    }
+
     .header_navbar-toggle {
         display: flex;
         z-index: 1000;
@@ -141,7 +159,7 @@
     align-items: center;
     flex-direction: column;
 }
-.bulle li  {
+.bulle a  {
     width: 60px;
     height: 60px;
     border-radius: 50%;/*
@@ -149,10 +167,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    margin: 20px 0;
     background: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.2));
     cursor: pointer;
     position: relative;
+}
+
+.bulle i:active, .bulle i:focus, .bulle i:hiver {
+  text-decoration:none;
 }
 
 .bulle .nav-youtube {
@@ -170,23 +192,6 @@
 .bulle .nav-twitter {
     color: #00dbff;
 }
-
-.bulle .bulle1:hover {
-    margin-left: 8px;
-}
-
-.bulle .bulle2:hover {
-    margin-left: 8px;
-}
-
-.bulle .bulle3:hover {
-    margin-left: 8px;
-}
-
-.bulle .bulle4:hover {
-    margin-left: 8px;
-}
-
 .logo-medias {
     width: 40px;
     height: 40px;
