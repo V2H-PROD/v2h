@@ -1,7 +1,7 @@
 .slide {
     padding-top: 30px;
     padding-bottom: 50px;
-    padding-left: 100px;
+    padding-left: 220px;
     padding-right: 100px;
 
 }
@@ -15,8 +15,9 @@
 
 #slider {
     position: relative;
-    max-width: 100%;
+    max-width: 80%;
     overflow: hidden;
+    width: 100%;
     height: 400px;
 }
 
@@ -39,7 +40,7 @@
 
 #slides figure {
     display: inline-block;
-    width: 100vw;
+    width: 60vw;
     max-height: 100%;
     margin: 0;
 }
@@ -47,8 +48,8 @@
 #slides figure img {
     width: 100%;    /*Centrer l'image verticalement si celle-ci ne peut être affichée totalement*/
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 60%;
+    transform: translateY(5%);
 }
 
 #slides figure figcaption {
@@ -79,12 +80,12 @@
     0%, 20%, 100% {
         left: 0; /*1ère image*/
     }
-    35%, 50% {
-        left: -100vw; /*2ème image*/
+    25%, 50% {
+        left: -60vw; /*2ème image*/
     }
 
     70%, 95% {
-        left: -200vw; /*3ème image*/
+        left: -120vw; /*3ème image*/
     }
 }
 
