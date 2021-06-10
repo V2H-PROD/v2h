@@ -116,6 +116,13 @@
         top: 100%; left: 0;
     }
 
+    .header_texture {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: -35%; left: 0;
+    }
+
     .header_navbar-toggle {
         display: flex;
         z-index: 1000;
