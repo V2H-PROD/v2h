@@ -47,20 +47,32 @@
     margin-right: 40px;
     margin-top: 25px;
     margin-bottom: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
+    text-align: center;
 }
 .youtube_video2 {
     margin-left: 80px;
     margin-right: 40px;
     margin-top: 25px;
     margin-bottom: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
+    text-align: center;
+}
+.youtube_video3 {
+    margin-left: 80px;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    text-align: center;
+}
+.youtube_video4 {
+    margin-left: 80px;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px ) {
