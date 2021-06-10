@@ -118,9 +118,9 @@
 
     .header_texture {
         width: 100%;
-        height: 100%;
         position: fixed;
         top: -35%; left: 0;
+        background-size: 150%;
     }
 
     .header_navbar-toggle {
@@ -146,7 +146,7 @@
         font-size: 24px;    
     }
     .header_slogan-title {
-        font-size: 30px;
+        font-size: 25px;
     }
     .bulle li  {
       width: 35px;
