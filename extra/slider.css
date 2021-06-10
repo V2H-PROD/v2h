@@ -46,7 +46,7 @@
 }
  
 #slides figure img {
-    width: 100%;    /*Centrer l'image verticalement si celle-ci ne peut être affichée totalement*/
+    width: 60%;    /*Centrer l'image verticalement si celle-ci ne peut être affichée totalement*/
     position: relative;
     top: 60%;
     transform: translateY(5%);
@@ -91,13 +91,20 @@
 
 @media only screen and (max-width: 600px ) {
     .slide {
-    padding-top: 15px;
-    padding-bottom: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 1px;
     }
     #slides figure figcaption {
         text-align: left;
         padding-left: 10px;
     }
+    #slides figure img {
+        width: 110%;    /*Centrer l'image verticalement si celle-ci ne peut être affichée totalement*/
+        position: relative;
+        top: 60%;
+        transform: translateY(5%);
+    }
+
 }
